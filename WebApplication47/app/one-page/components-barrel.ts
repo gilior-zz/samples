@@ -1,0 +1,7 @@
+﻿export { AboutComponent } from './ts/about.component'
+export { ClientsComponent } from './ts/clients.component'
+export { ContactComponent } from './ts/contact.component'
+export { HomeComponent } from './ts/home.component'
+export { MenuComponent } from './ts/menu.component'
+export { MyAccountComponent } from './ts/my-account.component'
+export { ProductsComponent } from './ts/products.component'

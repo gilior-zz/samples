@@ -106,18 +106,23 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="app\app-routing.module.ts" />
     <TypeScriptCompile Include="app\app.component.spec.ts" />
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\core.module.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <Content Include="app\one-page\html\clients.components.html" />
+    <TypeScriptCompile Include="app\one-page\components-barrel.ts" />
+    <TypeScriptCompile Include="app\one-page\one-page.module.ts" />
     <TypeScriptCompile Include="app\one-page\ts\about.component.ts" />
-    <TypeScriptCompile Include="app\one-page\ts\clients.components.ts" />
+    <TypeScriptCompile Include="app\one-page\ts\clients.component.ts" />
     <TypeScriptCompile Include="app\one-page\ts\contact.component.ts" />
     <TypeScriptCompile Include="app\one-page\ts\home.component.ts" />
     <TypeScriptCompile Include="app\one-page\ts\menu.component.ts" />
     <TypeScriptCompile Include="app\one-page\ts\my-account.component.ts" />
     <TypeScriptCompile Include="app\one-page\ts\products.component.ts" />
+    <TypeScriptCompile Include="app\shared.module.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
