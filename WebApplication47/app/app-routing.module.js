@@ -14,7 +14,8 @@ var appRoutes = [
     {
         path: 'one-page',
         loadChildren: 'app/one-page/one-page.module#OnePageModule',
-    }
+    },
+    { path: '', redirectTo: 'one-page', pathMatch: 'full' },
 ];
 var AppRoutingModule = (function () {
     function AppRoutingModule() {

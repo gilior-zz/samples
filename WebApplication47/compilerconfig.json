@@ -26,5 +26,13 @@
   {
     "outputFile": "app/one-page/scss/products.component.css",
     "inputFile": "app/one-page/scss/products.component.scss"
+  },
+  {
+    "outputFile": "app/app.component.css",
+    "inputFile": "app/app.component.scss"
+  },
+  {
+    "outputFile": "app/one-page/scss/clients.component.css",
+    "inputFile": "app/one-page/scss/clients.component.scss"
   }
 ]

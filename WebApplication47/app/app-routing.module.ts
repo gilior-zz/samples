@@ -3,10 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 
 const appRoutes: Routes = [
+
     {
         path: 'one-page',
         loadChildren: 'app/one-page/one-page.module#OnePageModule',
-    }
+    },
+    { path: '', redirectTo: 'one-page', pathMatch: 'full' },
 
 ];
 
