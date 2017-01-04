@@ -1,0 +1,30 @@
+﻿[
+  {
+    "outputFile": "app/one-page/scss/about.component.css",
+    "inputFile": "app/one-page/scss/about.component.scss"
+  },
+  {
+    "outputFile": "app/one-page/scss/clients.components.css",
+    "inputFile": "app/one-page/scss/clients.components.scss"
+  },
+  {
+    "outputFile": "app/one-page/scss/contact.component.css",
+    "inputFile": "app/one-page/scss/contact.component.scss"
+  },
+  {
+    "outputFile": "app/one-page/scss/menu.component.css",
+    "inputFile": "app/one-page/scss/menu.component.scss"
+  },
+  {
+    "outputFile": "app/one-page/scss/home.component.css",
+    "inputFile": "app/one-page/scss/home.component.scss"
+  },
+  {
+    "outputFile": "app/one-page/scss/my-account.component.css",
+    "inputFile": "app/one-page/scss/my-account.component.scss"
+  },
+  {
+    "outputFile": "app/one-page/scss/products.component.css",
+    "inputFile": "app/one-page/scss/products.component.scss"
+  }
+]

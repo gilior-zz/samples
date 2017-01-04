@@ -9,14 +9,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
+var shared_module_1 = require('../shared.module');
+var components = require('./components-barrel');
+var one_page_routing_module_1 = require('./one-page-routing.module');
+var OnePageModule = (function () {
+    function OnePageModule() {
     }
-    AppComponent = __decorate([
-        core_1.Component({ moduleId: module.id, templateUrl: './app.component.html', styleUrls: ['./app.component.css'] }), 
+    OnePageModule = __decorate([
+        core_1.NgModule({
+            imports: [shared_module_1.SharedModule, one_page_routing_module_1.OnePageRoutingModule],
+            declarations: [components.AboutComponent, components.ClientsComponent, components.ContactComponent, components.HomeComponent, components.MenuComponent, components.MyAccountComponent, components.ProductsComponent]
+        }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], OnePageModule);
+    return OnePageModule;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.OnePageModule = OnePageModule;
+//# sourceMappingURL=one-page.module.js.map

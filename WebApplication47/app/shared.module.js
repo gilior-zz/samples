@@ -9,14 +9,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
+var common_1 = require('@angular/common');
+var forms_1 = require('@angular/forms');
+var SharedModule = (function () {
+    function SharedModule() {
     }
-    AppComponent = __decorate([
-        core_1.Component({ moduleId: module.id, templateUrl: './app.component.html', styleUrls: ['./app.component.css'] }), 
+    SharedModule = __decorate([
+        core_1.NgModule({
+            imports: [common_1.CommonModule],
+            exports: [
+                common_1.CommonModule, forms_1.FormsModule]
+        }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], SharedModule);
+    return SharedModule;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.SharedModule = SharedModule;
+//# sourceMappingURL=shared.module.js.map

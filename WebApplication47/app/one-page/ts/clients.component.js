@@ -9,14 +9,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
+var ClientsComponent = (function () {
+    function ClientsComponent() {
     }
-    AppComponent = __decorate([
-        core_1.Component({ moduleId: module.id, templateUrl: './app.component.html', styleUrls: ['./app.component.css'] }), 
+    ClientsComponent = __decorate([
+        core_1.Component({ selector: 'clients', moduleId: module.id, templateUrl: '../html/clients.component.html', styleUrls: ['../scss/clients.component.css'] }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], ClientsComponent);
+    return ClientsComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.ClientsComponent = ClientsComponent;
+//# sourceMappingURL=clients.component.js.map

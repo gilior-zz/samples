@@ -80,6 +80,10 @@
     <Content Include="app\one-page\scss\my-account.component.scss" />
     <Content Include="app\app.component.scss" />
     <Content Include="app\one-page\scss\clients.components.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -95,6 +99,48 @@
     <Content Include="app\one-page\html\menu.component.html" />
     <Content Include="app\one-page\html\my-account.component.html" />
     <Content Include="app\one-page\html\products.component.html" />
+    <Content Include="app\one-page\scss\about.component.css">
+      <DependentUpon>about.component.scss</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\about.component.min.css">
+      <DependentUpon>about.component.css</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\clients.components.css">
+      <DependentUpon>clients.components.scss</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\clients.components.min.css">
+      <DependentUpon>clients.components.css</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\contact.component.css">
+      <DependentUpon>contact.component.scss</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\contact.component.min.css">
+      <DependentUpon>contact.component.css</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\home.component.css">
+      <DependentUpon>home.component.scss</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\home.component.min.css">
+      <DependentUpon>home.component.css</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\menu.component.css">
+      <DependentUpon>menu.component.scss</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\menu.component.min.css">
+      <DependentUpon>menu.component.css</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\my-account.component.css">
+      <DependentUpon>my-account.component.scss</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\my-account.component.min.css">
+      <DependentUpon>my-account.component.css</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\products.component.css">
+      <DependentUpon>products.component.scss</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\products.component.min.css">
+      <DependentUpon>products.component.css</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="index.html" />
     <Content Include="styles.css" />
@@ -114,6 +160,7 @@
     <TypeScriptCompile Include="app\main.ts" />
     <Content Include="app\one-page\html\clients.components.html" />
     <TypeScriptCompile Include="app\one-page\components-barrel.ts" />
+    <TypeScriptCompile Include="app\one-page\one-page-routing.module.ts" />
     <TypeScriptCompile Include="app\one-page\one-page.module.ts" />
     <TypeScriptCompile Include="app\one-page\ts\about.component.ts" />
     <TypeScriptCompile Include="app\one-page\ts\clients.component.ts" />
