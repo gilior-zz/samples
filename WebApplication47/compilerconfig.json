@@ -34,5 +34,9 @@
   {
     "outputFile": "app/one-page/scss/clients.component.css",
     "inputFile": "app/one-page/scss/clients.component.scss"
+  },
+  {
+    "outputFile": "Content/site.css",
+    "inputFile": "Content/site.scss"
   }
 ]

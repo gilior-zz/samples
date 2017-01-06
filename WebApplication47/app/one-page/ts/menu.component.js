@@ -12,8 +12,12 @@ var core_1 = require('@angular/core');
 var MenuComponent = (function () {
     function MenuComponent() {
     }
+    MenuComponent.prototype.goTo = function (div) {
+        console.log(div.id);
+        console.log(div.scrollTop);
+    };
     MenuComponent = __decorate([
-        core_1.Component({ selector: 'menu', moduleId: module.id, templateUrl: '../html/menu.component.html', styleUrls: ['../scss/menu.component.css'] }), 
+        core_1.Component({ selector: 'site-menu', moduleId: module.id, templateUrl: '../html/menu.component.html', styleUrls: ['../scss/menu.component.css'] }), 
         __metadata('design:paramtypes', [])
     ], MenuComponent);
     return MenuComponent;
