@@ -8,12 +8,12 @@
   margin: 2px; }
 
 .outer {
-  height: 500px;
-  background-color: #90b8be; }
+  height: 500px; }
 
-img {
-  width: 100%;
-  height: auto; }
+.product-image {
+  cursor: pointer;
+  background-color: #0b7b82;
+  border: 10px solid #0b7b82; }
 
 #perfume {
   background-image: url("https://lifestyle9.org/wp-content/uploads/2015/02/best-perfumes-for-women-24.jpg"); }

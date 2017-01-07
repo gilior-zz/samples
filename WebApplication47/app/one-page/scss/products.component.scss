@@ -14,14 +14,16 @@
 
 .outer {
     height: 500px;
-    background-color: #90b8be;
 }
 
 
 
-img {
-    width: 100%;
-    height: auto;
+
+
+.product-image {
+    cursor: pointer;
+    background-color: #0b7b82;
+    border: 10px solid #0b7b82;
 }
 
 #perfume {
