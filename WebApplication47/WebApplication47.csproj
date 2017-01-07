@@ -105,6 +105,7 @@
     <Content Include="app\one-page\html\home.component.html" />
     <Content Include="app\one-page\html\menu.component.html" />
     <Content Include="app\one-page\html\my-account.component.html" />
+    <Content Include="app\one-page\html\press.component.html" />
     <Content Include="app\one-page\html\products.component.html" />
     <Content Include="app\one-page\scss\about.component.css">
       <DependentUpon>about.component.scss</DependentUpon>
@@ -148,6 +149,12 @@
     <Content Include="app\one-page\scss\my-account.component.min.css">
       <DependentUpon>my-account.component.css</DependentUpon>
     </Content>
+    <Content Include="app\one-page\scss\press.component.css">
+      <DependentUpon>press.component.scss</DependentUpon>
+    </Content>
+    <Content Include="app\one-page\scss\press.component.min.css">
+      <DependentUpon>press.component.css</DependentUpon>
+    </Content>
     <Content Include="app\one-page\scss\products.component.css">
       <DependentUpon>products.component.scss</DependentUpon>
     </Content>
@@ -176,7 +183,9 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\site.scss" />
+    <Content Include="app\one-page\scss\press.component.scss" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="node_modules\%40angular\material\core\theming\prebuilt\deeppurple-amber.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
@@ -206,6 +215,7 @@
     <TypeScriptCompile Include="app\one-page\ts\home.component.ts" />
     <TypeScriptCompile Include="app\one-page\ts\menu.component.ts" />
     <TypeScriptCompile Include="app\one-page\ts\my-account.component.ts" />
+    <TypeScriptCompile Include="app\one-page\ts\press.component.ts" />
     <TypeScriptCompile Include="app\one-page\ts\products.component.ts" />
     <TypeScriptCompile Include="app\shared.module.ts" />
   </ItemGroup>

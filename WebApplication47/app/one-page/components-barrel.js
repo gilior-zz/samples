@@ -13,4 +13,6 @@ var my_account_component_1 = require('./ts/my-account.component');
 exports.MyAccountComponent = my_account_component_1.MyAccountComponent;
 var products_component_1 = require('./ts/products.component');
 exports.ProductsComponent = products_component_1.ProductsComponent;
+var press_component_1 = require('./ts/press.component');
+exports.PressComponent = press_component_1.PressComponent;
 //# sourceMappingURL=components-barrel.js.map

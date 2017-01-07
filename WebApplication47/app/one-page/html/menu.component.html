@@ -1,9 +1,26 @@
-﻿<div fxLayout="row" class="menu-items" fxHide="false" fxHide.xs>
-    <div id="about" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">about</div>
-    <div id="products" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">products</div>
-    <div id="clients" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">clients</div>
-    <div id="contact" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">contact</div>
-    <div id="my-account" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">my-account</div>
+﻿<!--<img src="https://www.brainscape.com/blog/wp-content/uploads/2015/07/success.jpg" alt="" />-->
+<div class="wrappper" fxHide="false" fxHide.xs>
+    <div fxLayout="row" class="menu-items" fxHide="false" fxHide.xs>
+        <div class="menu-item" id="about" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">about</div>
+        <div class="menu-item" id="products" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">products</div>
+        <div class="menu-item" id="clients" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">clients</div>
+        <div class="menu-item" id="contact" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">contact</div>
+        <div class="menu-item" id="my-account" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">my-account</div>
+        <div class="menu-item" id="press" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">press</div>
+    </div>
 </div>
-<div fxLayout="row" class="menu-items" fxHide="false" fxHide.xs>
-</div>
+
+
+
+<!--<md-sidenav-container class="example-container">
+    <md-sidenav #sidenav class="example-sidenav">
+        Jolly good!
+    </md-sidenav>
+
+    <div class="example-sidenav-content">
+        <button md-button (click)="sidenav.open()">
+            Open sidenav
+        </button>
+    </div>
+
+</md-sidenav-container>-->

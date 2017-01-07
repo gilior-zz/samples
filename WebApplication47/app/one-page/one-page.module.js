@@ -20,7 +20,7 @@ var OnePageModule = (function () {
     OnePageModule = __decorate([
         core_1.NgModule({
             imports: [shared_module_1.SharedModule, one_page_routing_module_1.OnePageRoutingModule, material_1.MaterialModule, flex_layout_1.FlexLayoutModule],
-            declarations: [components.AboutComponent, components.ClientsComponent, components.ContactComponent, components.HomeComponent, components.MenuComponent, components.MyAccountComponent, components.ProductsComponent]
+            declarations: [components.AboutComponent, components.ClientsComponent, components.ContactComponent, components.HomeComponent, components.MenuComponent, components.MyAccountComponent, components.ProductsComponent, components.PressComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], OnePageModule);

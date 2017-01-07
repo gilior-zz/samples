@@ -6,7 +6,7 @@ import { MaterialModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 @NgModule({
     imports: [SharedModule, OnePageRoutingModule, MaterialModule, FlexLayoutModule],
-    declarations: [components.AboutComponent, components.ClientsComponent, components.ContactComponent, components.HomeComponent, components.MenuComponent, components.MyAccountComponent, components.ProductsComponent]
+    declarations: [components.AboutComponent, components.ClientsComponent, components.ContactComponent, components.HomeComponent, components.MenuComponent, components.MyAccountComponent, components.ProductsComponent, components.PressComponent]
 
 })
 export class OnePageModule { }

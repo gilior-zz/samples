@@ -6,6 +6,5 @@ export class MenuComponent {
     public goTo(div: HTMLDivElement): void {
         console.log(div.id);
         console.log(div.scrollTop);
-
     }
 }
