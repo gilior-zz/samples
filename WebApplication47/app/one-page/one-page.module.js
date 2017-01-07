@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var shared_module_1 = require('../shared.module');
 var components = require('./components-barrel');
+var directives = require('./directives-barrel');
 var one_page_routing_module_1 = require('./one-page-routing.module');
 var material_1 = require('@angular/material');
 var flex_layout_1 = require('@angular/flex-layout');
@@ -20,7 +21,7 @@ var OnePageModule = (function () {
     OnePageModule = __decorate([
         core_1.NgModule({
             imports: [shared_module_1.SharedModule, one_page_routing_module_1.OnePageRoutingModule, material_1.MaterialModule, flex_layout_1.FlexLayoutModule],
-            declarations: [components.AboutComponent, components.ClientsComponent, components.ContactComponent, components.HomeComponent, components.MenuComponent, components.MyAccountComponent, components.ProductsComponent, components.PressComponent]
+            declarations: [components.AboutComponent, components.ClientsComponent, components.ContactComponent, components.HomeComponent, components.MenuComponent, components.MyAccountComponent, components.ProductsComponent, components.PressComponent, directives.HoverDirectiveComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], OnePageModule);

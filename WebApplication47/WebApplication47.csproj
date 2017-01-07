@@ -207,6 +207,8 @@
     <TypeScriptCompile Include="app\main.ts" />
     <Content Include="app\one-page\html\clients.component.html" />
     <TypeScriptCompile Include="app\one-page\components-barrel.ts" />
+    <TypeScriptCompile Include="app\one-page\directives-barrel.ts" />
+    <TypeScriptCompile Include="app\one-page\directives\hover-color.directive.ts" />
     <TypeScriptCompile Include="app\one-page\one-page-routing.module.ts" />
     <TypeScriptCompile Include="app\one-page\one-page.module.ts" />
     <TypeScriptCompile Include="app\one-page\ts\about.component.ts" />
