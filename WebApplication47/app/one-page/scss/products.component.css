@@ -10,6 +10,10 @@
 .outer {
   height: 500px; }
 
+@media (max-width: 767px) {
+  .outer {
+    height: 1500px; } }
+
 .product-image {
   cursor: pointer;
   background-color: #0b7b82;

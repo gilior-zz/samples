@@ -36,7 +36,7 @@ var HoverDirectiveComponent = (function () {
         __metadata('design:returntype', void 0)
     ], HoverDirectiveComponent.prototype, "onLeave", null);
     HoverDirectiveComponent = __decorate([
-        core_1.Directive({ selector: '[elementHighlight]', }), 
+        core_1.Directive({ selector: '[elementHighlight]' }), 
         __metadata('design:paramtypes', [core_1.ElementRef])
     ], HoverDirectiveComponent);
     return HoverDirectiveComponent;

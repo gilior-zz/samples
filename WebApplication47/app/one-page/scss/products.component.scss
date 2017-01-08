@@ -1,4 +1,6 @@
-﻿div {
+﻿@import "../../../Content/variables";
+
+div {
     /*border: solid;*/
     /*border-color: white;
     color: white;*/
@@ -14,6 +16,12 @@
 
 .outer {
     height: 500px;
+}
+
+@media($xs) {
+    .outer {
+        height: 1500px;
+    }
 }
 
 

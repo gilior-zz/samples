@@ -184,6 +184,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\site.scss" />
     <Content Include="app\one-page\scss\press.component.scss" />
+    <Content Include="Content\variables.scss" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="node_modules\%40angular\material\core\theming\prebuilt\deeppurple-amber.css" />
     <Content Include="Scripts\bootstrap.js" />

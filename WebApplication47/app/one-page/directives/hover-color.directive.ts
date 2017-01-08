@@ -1,6 +1,6 @@
 ﻿import { Directive, ElementRef, Input, HostListener } from '@angular/core'
 
-@Directive({ selector: '[elementHighlight]', })
+@Directive({ selector: '[elementHighlight]' })
 
 export class HoverDirectiveComponent {
     @Input('elementHighlight') color: string;

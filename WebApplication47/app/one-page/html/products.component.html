@@ -4,7 +4,7 @@
         <md-card-subtitle>our company best products</md-card-subtitle>
     </md-card-header>
     <md-card-content>
-        <div fxLayoutAlign="space-between stretch" class="outer" fxLayout="row">
+        <div fxLayoutAlign="space-between stretch" class="outer" fxLayout.xs="column" fxLayout="row">
             <div fxLayout="column" fxFlex="33">
                 <div class="product-image" mdTooltip="best perfume!" mdTooltipPosition="above" id="perfume" fxFlex></div>
                 <div class="product-image" mdTooltip="best stamp!" mdTooltipPosition="above" id="stamp" fxFlex></div>
@@ -13,7 +13,7 @@
             </div>
 
             <div fxLayout="column" fxFlex="67">
-                <div fxLayout="row" fxFlex="33">
+                <div fxLayout="row" fxLayout.xs="column" fxFlex="33">
                     <div class="product-image" mdTooltip="best house!" mdTooltipPosition="above" id="house" fxFlex></div>
                     <div class="product-image" mdTooltip="best car!" mdTooltipPosition="above" id="car" fxFlex></div>
                 </div>
