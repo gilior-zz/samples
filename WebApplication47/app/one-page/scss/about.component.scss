@@ -7,3 +7,21 @@ img {
     padding: 10px;
     /*display: none;*/
 }
+
+div {
+    color: white;
+}
+
+.wrapper {
+    background-image: url('https://photoshop-master.ru/lessons/les2231/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:20px;
+   border-top-left-radius:5px;
+   border-top-right-radius:5px;
+}
+
+h1 {
+    color: cornflowerblue;
+    padding-left: 5%;
+}

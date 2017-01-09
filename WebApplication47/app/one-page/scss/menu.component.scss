@@ -1,5 +1,5 @@
 ﻿.menu-items {
-    height: 80px;
+    height: 60px;
     /*background-color: black;*/
     color: white;
     background-color: black;
@@ -15,8 +15,15 @@
     cursor: pointer;
 }
 
+#logo {
+    background-image: url('http://graphicdesignjunction.com/wp-content/uploads/2012/12/business+logo+designs+14+2.jpg');
+    background-size: auto 60px;
+    background-repeat: no-repeat;
+}
+
 .wrappper {
-    height: 80px;
+    height: 100px;
+    background-color: black;
 }
 
 img {

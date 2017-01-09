@@ -1,1 +1,73 @@
-﻿
+﻿@import "../../../Content/variables";
+
+div {
+    /*border: solid;*/
+    /*border-color: white;
+    color: white;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*margin: 2px;*/
+}
+
+h1{
+    color:chartreuse;
+    padding-left:5%;
+}
+
+
+
+.outer {
+    height: 500px;
+    div{
+        margin:10px;
+    }
+}
+
+@media(max-width:599px) {
+    .outer {
+        height: 1500px;
+    }
+}
+
+.wrapper {
+    background-image: url('https://wallpaperscraft.com/image/stains_light_dark_background_46838_2560x1440.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    /*border-radius: 5px;*/
+}
+
+
+
+
+
+.client-image {
+    cursor: pointer;
+    /*background-color: #0b7b82;
+    border: 10px solid #0b7b82;*/
+}
+
+#perfume {
+    background-image: url('http://media2.bazaarvoice.com/images/logo_3suisses_default.png');
+}
+
+#watch {
+    background-image: url('http://media2.bazaarvoice.com/images/logo_acme_tools_default.png');
+}
+
+#stamp {
+    background-image: url('http://media2.bazaarvoice.com/images/adidas_logo.png');
+}
+
+#car {
+    background-image: url('http://media2.bazaarvoice.com/images/logo_aj_madison_default.png');
+}
+
+#jewlery {
+    background-image: url('http://media2.bazaarvoice.com/images/aldermore.png');
+}
+
+#house {
+    background-image: url('http://media2.bazaarvoice.com/images/logo_Alberto_culver_default+-+Copy.png');
+}
