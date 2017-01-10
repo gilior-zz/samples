@@ -1,6 +1,6 @@
 ﻿<div class="wrapper">
     <h1>our clients</h1>
-    <div fxLayoutAlign="space-between stretch" class="outer" fxLayout.xs="column" fxLayout="row">
+    <div fxHide="false" fxHide.xs fxLayoutAlign="space-between stretch" class="outer" fxLayout.xs="column" fxLayout="row">
         <div fxLayout="column" fxFlex="33">
             <div class="client-image" id="perfume" fxFlex></div>
             <div class="client-image" id="stamp" fxFlex></div>
@@ -13,10 +13,19 @@
                 <div class="client-image" id="house" fxFlex></div>
                 <div class="client-image" id="car" fxFlex></div>
             </div>
-
             <div class="client-image" id="jewlery" fxFlex></div>
 
         </div>
+    </div>
+
+
+    <div fxHide="false" fxHide.gt-xs fxLayoutAlign="space-between stretch" class="outer" fxLayout="column">
+        <div class="client-image" id="perfume" fxFlex></div>
+        <div class="client-image" id="stamp" fxFlex></div>
+        <!--<div class="client-image" id="watch" fxFlex></div>-->
+        <div class="client-image" id="house" fxFlex></div>
+        <div class="client-image" id="car" fxFlex></div>
+        <div class="client-image" id="jewlery" fxFlex></div>
     </div>
 </div>
 

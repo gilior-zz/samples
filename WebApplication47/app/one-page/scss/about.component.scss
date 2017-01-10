@@ -9,19 +9,21 @@ img {
 }
 
 div {
-    color: white;
+    /*color: white;*/
 }
 
 .wrapper {
-    background-image: url('https://photoshop-master.ru/lessons/les2231/2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    /*background-image: url('https://photoshop-master.ru/lessons/les2231/2.jpg');*/
+
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color:#d6d6ef;
     padding:20px;
    border-top-left-radius:5px;
    border-top-right-radius:5px;
 }
 
 h1 {
-    color: cornflowerblue;
+    color: #410bf8;
     padding-left: 5%;
 }

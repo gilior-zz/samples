@@ -8,7 +8,7 @@
   /*margin: 2px;*/ }
 
 h1 {
-  color: chartreuse;
+  color: #0d051e;
   padding-left: 5%; }
 
 .outer {
@@ -18,12 +18,13 @@ h1 {
 
 @media (max-width: 599px) {
   .outer {
-    height: 1500px; } }
+    height: 1000px; } }
 
 .wrapper {
-  background-image: url("https://wallpaperscraft.com/image/stains_light_dark_background_46838_2560x1440.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  /*background-image: url('https://wallpaperscraft.com/image/stains_light_dark_background_46838_2560x1440.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;*/
+  background-color: #b8bbc3;
   padding: 20px;
   /*border-radius: 5px;*/ }
 

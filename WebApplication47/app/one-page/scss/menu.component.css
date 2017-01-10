@@ -1,13 +1,14 @@
 ﻿.menu-items {
   height: 60px;
   /*background-color: black;*/
-  color: white;
-  background-color: black;
+  /*color: white;*/
+  /*background-color: black;*/
   width: 100%;
   padding: 0 15px 0 15px;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 15px;
+  right: 15px;
   z-index: 1; }
 
 .menu-item {
@@ -20,7 +21,7 @@
 
 .wrappper {
   height: 100px;
-  background-color: black; }
+  /*background-color: black;*/ }
 
 img {
   /*height: 100px;*/
