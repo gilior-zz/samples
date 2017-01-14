@@ -1,27 +1,14 @@
 ﻿<div class="wrapper">
     <h1>our products</h1>
-    <div fxHide="false" fxHide.xs fxLayout.xs="column" fxLayout="row">
-        <div fxLayout="column">
-            <div fxFlex></div>
-            <div fxFlex></div>
-        </div>
-
-        <div fxLayout="column">
-            <div fxLayout="row" fxLayout.xs="column">
-                <div fxFlex></div>
-                <div fxFlex></div>
-            </div>
-            <div fxFlex></div>
-
+    <div>
+        <div fxHide="false" fxHide.xs class="products" fxLayoutAlign="space-around none" fxLayout="row" fxLayoutWrap="wrap">
+            <div [style.background-color]="'rgb('+(255-i*5)+','+(255-i*5)+','+(255-i*5)+')'" class="product" *ngFor="let prod of products;let i=index" fxLayoutAlign="space-around center" fxFlex="25">{{prod}}</div>
         </div>
     </div>
 
 
-    <div fxHide="false" fxHide.gt-xs fxLayout="column">
-        <div fxFlex></div>
-        <div fxFlex></div>
-        <div fxFlex></div>
-        <div fxFlex></div>
-        <div fxFlex></div>
+
+    <div class="products" fxHide="false" fxHide.gt-xs fxLayout="column">
+        <div *ngFor="let prod of products" fxLayoutAlign="space-around center" fxFlex="25">{{prod}}</div>
     </div>
 </div>

@@ -13,7 +13,7 @@ var PressComponent = (function () {
     function PressComponent() {
     }
     PressComponent = __decorate([
-        core_1.Component({ selector: 'press', moduleId: module.id, templateUrl: '../html/products.component.html', styleUrls: ['../scss/press.component.css'] }), 
+        core_1.Component({ selector: 'press', moduleId: module.id, templateUrl: '../html/press.component.html', styleUrls: ['../scss/press.component.css'] }), 
         __metadata('design:paramtypes', [])
     ], PressComponent);
     return PressComponent;

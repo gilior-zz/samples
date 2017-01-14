@@ -11,7 +11,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var ProductsComponent = (function () {
     function ProductsComponent() {
+        this.products = new Array();
     }
+    ProductsComponent.prototype.ngOnInit = function () {
+        for (var i = 1; i < 21; i++) {
+            this.products.push("product " + i);
+        }
+    };
     ProductsComponent = __decorate([
         core_1.Component({ selector: 'products', moduleId: module.id, templateUrl: '../html/products.component.html', styleUrls: ['../scss/products.component.css'] }), 
         __metadata('design:paramtypes', [])

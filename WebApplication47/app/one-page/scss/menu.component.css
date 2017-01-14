@@ -1,6 +1,6 @@
 ﻿.menu-items {
   height: 60px;
-  /*background-color: black;*/
+  background-color: rgba(255, 255, 255, 0.9);
   /*color: white;*/
   /*background-color: black;*/
   width: 100%;
@@ -9,7 +9,10 @@
   top: 0;
   left: 15px;
   right: 15px;
-  z-index: 1; }
+  z-index: 1;
+  font-weight: bold;
+  color: black;
+  font-size: 100%; }
 
 .menu-item {
   cursor: pointer; }
@@ -20,10 +23,31 @@
   background-repeat: no-repeat; }
 
 .wrappper {
-  height: 100px;
+  min-height: 500px;
   /*background-color: black;*/ }
 
-img {
-  /*height: 100px;*/
-  width: auto; }
+.menu-img {
+  background-repeat: no-repeat;
+  top: 40px;
+  background-size: 100% 100%;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%; }
+
+.image-link {
+  padding: 5%;
+  font-size: 3vw;
+  color: black;
+  text-decoration: underline;
+  cursor: pointer; }
+
+#image-1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Usa-state-boundaries-4000-transparent.png/800px-Usa-state-boundaries-4000-transparent.png"); }
+
+#image-2 {
+  background-image: url("http://freedesignfile.com/upload/2014/02/Transparent-bubbles-with-background-vector-05.jpg"); }
+
+#image-3 {
+  background-image: url("https://aos.iacpublishinglabs.com/question/aq/700px-394px/colors-make-up-white-light_806a2a185b18277e.jpg?domain=cx.aos.ask.com"); }
 

@@ -12,7 +12,7 @@ h1 {
   padding-left: 5%; }
 
 .outer {
-  height: 500px; }
+  min-height: 500px; }
   .outer div {
     margin: 10px; }
 

@@ -1,14 +1,46 @@
 ﻿<!--<img src="https://www.brainscape.com/blog/wp-content/uploads/2015/07/success.jpg" alt="" />-->
-<div class="wrappper" fxHide="false" fxHide.xs>
-    <div [@dynamicMenu]="isMenuVisible"  fxLayout="row" class="menu-items" fxHide="false" fxHide.xs>
+<div fxLayout="row" class="wrappper" fxHide="false" fxHide.xs>
+    <div [@dynamicMenu]="isMenuVisible" [@isScaledFont]="isBiggerFont" class="menu-items" fxHide="false" fxHide.xs>
         <!--<div [elementHighlight]="'red'" class="menu-item" id="logo" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center"></div>-->
-        <div [elementHighlight]="'red'" class="menu-item" id="about" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">about</div>
-        <div [elementHighlight]="'red'" class="menu-item" id="products" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">products</div>
-        <div [elementHighlight]="'red'" class="menu-item" id="clients" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">clients</div>
-        <div [elementHighlight]="'red'" class="menu-item" id="contact" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">contact</div>
-        <div [elementHighlight]="'red'" class="menu-item" id="my-account" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">my-account</div>
-        <div [elementHighlight]="'red'" class="menu-item" id="press" (click)="goTo($event.target)" fxFlex fxLayoutAlign="space-around center">press</div>
+        <div [elementHighlight]="'red'" class="menu-item" (click)="goTo('about')" fxFlex fxLayoutAlign="space-around center">about</div>
+        <div [elementHighlight]="'red'" class="menu-item" (click)="goTo('products')" fxFlex fxLayoutAlign="space-around center">products</div>
+        <div [elementHighlight]="'red'" class="menu-item" (click)="goTo('clients')" fxFlex fxLayoutAlign="space-around center">clients</div>
+        <div [elementHighlight]="'red'" class="menu-item" (click)="goTo('contact')" fxFlex fxLayoutAlign="space-around center">contact</div>
+        <div [elementHighlight]="'red'" class="menu-item" (click)="goTo('my-account')" fxFlex fxLayoutAlign="space-around center">my-account</div>
+        <div [elementHighlight]="'red'" class="menu-item" (click)="goTo('press')" fxFlex fxLayoutAlign="space-around center">press</div>
     </div>
+
+
+    <div *ngIf="isFirst" id="image-1" fxLayout="row" fxLayoutAlign="space-between end" class="menu-img">
+        <a class="image-link" flex>contact us</a>
+        <a class="image-link" flex>log in</a>
+
+    </div>
+
+    <div *ngIf="isSecond" id="image-2" fxLayout="row" fxLayoutAlign="space-between end" class="menu-img">
+        <a class="image-link" flex>contact us</a>
+        <a class="image-link" flex>log in</a>
+
+    </div>
+
+    <div *ngIf="isThird" id="image-3" fxLayout="row" fxLayoutAlign="space-between end" class="menu-img">
+        <a class="image-link" flex>contact us</a>
+        <a class="image-link" flex>log in</a>
+
+    </div>
+
+
+
+
+    <!--<div *ngFor="let img of images;let i=index" class="menu-img" [style.display]="i==currentIndex?'block':'none'" fxFlex>
+        <div fxLayoutAlign="start end" [ngStyle]="{'background-image': 'url(' + img + ')'}" class="inner-image">
+            <a class="image-link" flex fxLayoutAlign="space-around center">contact us</a>
+            <a class="image-link" flex fxLayoutAlign="space-around center">log in</a>
+        </div>
+    </div>-->
+
+
+
 </div>
 
 
