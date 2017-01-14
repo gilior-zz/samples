@@ -13,6 +13,14 @@ var HomeComponent = (function () {
     function HomeComponent() {
         this.isVisible = true;
     }
+    HomeComponent.prototype.goTo = function (div) {
+        var top = $(div).offset().top;
+        //console.log(div.scrollTop);
+        $('html, body').animate({
+            scrollTop: top
+        }, 1000);
+        //console.log(div.scrollTop);
+    };
     HomeComponent = __decorate([
         core_1.Component({ selector: 'home', moduleId: module.id, templateUrl: '../html/home.component.html', styleUrls: ['../scss/home.component.css'] }), 
         __metadata('design:paramtypes', [])

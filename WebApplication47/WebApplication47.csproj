@@ -68,8 +68,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dist\build.js" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
+    <Content Include="rollup-config.js" />
     <Content Include="tsconfig.json" />
     <Content Include="typings.json" />
     <Content Include="app\one-page\scss\home.component.scss" />
@@ -85,6 +87,8 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="tsconfig-aot.json" />
+    <None Include="Properties\PublishProfiles\liorgwebsite.com - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -186,7 +190,6 @@
     <Content Include="app\one-page\scss\press.component.scss" />
     <Content Include="Content\variables.scss" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="node_modules\%40angular\material\core\theming\prebuilt\deeppurple-amber.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />

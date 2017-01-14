@@ -4,4 +4,13 @@
 
 export class HomeComponent {
     isVisible = true;
+
+    public goTo(div: string): void {
+        let top = $(div).offset().top;
+        //console.log(div.scrollTop);
+        $('html, body').animate({
+            scrollTop: top
+        }, 1000);
+        //console.log(div.scrollTop);
+    }
 }

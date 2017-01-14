@@ -13,6 +13,7 @@ var platform_browser_1 = require('@angular/platform-browser');
 var app_routing_module_1 = require('./app-routing.module');
 var app_component_1 = require('./app.component');
 var material_1 = require('@angular/material');
+//import { OnePageModule} from './one-page/one-page.module'
 require('hammerjs');
 var AppModule = (function () {
     function AppModule() {
